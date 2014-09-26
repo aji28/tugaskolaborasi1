@@ -37,6 +37,19 @@ public class Matriks{
 			}
 			System.out.println();
 		}
+		
+		for(i=0;i<2;i++){
+			for(j=0;j<2;j++){
+				Pengurangan[i][j]=A[i][j]-B[i][j];
+			}
+		}
+		System.out.println("\nA - B\n");
+		for(i=0;i<2;i++){
+			for(j=0;j<2;j++){
+				System.out.print(" "+Pengurangan[i][j]);
+			}
+			System.out.println();
+		}
 		System.out.println();
 	}
 }
